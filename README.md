@@ -14,8 +14,7 @@ Simple ESP32 project that uses a **🟢built-in touch pin (GPIO 2)** to detect t
 - 1 Female-Male Jumper Wire
 - 2 Female-Female Jumper wires (To connect from the ESP-WROOM-32 to the LED)
 - USB-A to USB-C Cable 1m(Data Transferring Cable)
-
-  ---
+  
 ## ➿Wiring
 - **Touch electrode**: bare wire connected directly to **GPIO 2** (P2)
 - **LED circuit**:
