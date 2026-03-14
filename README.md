@@ -45,6 +45,8 @@ Simple ESP32 project that uses a **🟢built-in touch pin (GPIO 2)** to detect t
 - Touched: 20–60 (varies by board & finger contact)
 
 ## ⏯️Touch Demo Video and Serial Monitor Demonstration
+>The video link below will redirect you to Youtube
+
 [Check out the Demo on Youtube!](https://youtube.com/shorts/Yt_z1moq-TY?feature=share)
 
 ## 🚫Before touching the sensor
