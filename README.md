@@ -43,5 +43,8 @@ Simple ESP32 project that uses a built-in touch pin (GPIO 2) to detect touch and
 - Touched: 20–60 (varies by board & finger contact)
 
 ## Video and Serial Monitor Demonstration
->Create a new, short demo and place it here
+
+
+
+
 >Get the screenshots of the serial monitor before the touch and afer the touch
