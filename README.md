@@ -1,4 +1,4 @@
-# 🤌ESP32 Touch Sensor with LED Indicator
+# 🫰ESP32 Touch Sensor with LED Indicator
 
 Simple ESP32 project that uses a **🟢built-in touch pin (GPIO 2)** to detect touch and lights an **🔴external LED (on GPIO 5)** when the touch value drops below a defined threshold.
 
