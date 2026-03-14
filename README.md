@@ -32,7 +32,9 @@ Simple ESP32 project that uses a built-in touch pin (GPIO 2) to detect touch and
 
 **LED (with current-limiting resistor)**
 - Connect the LED anode (longer leg) ➡️ GPIO 5. Connect the LED cathode (shorter leg) ➡️ GND (any GND pin on the ESP32). This is a sourcing configuration **(ESP32 HIGH = LED on)**.
->Show pictres of wires connected to pins and one connected to LED
+## Finished Setup
+
+
 ## ArduinoIDE:
 1. Upload the [touch sensor](https://github.com/boydjawun/arduino-esp32-touch-sensor-LED-monitor/blob/main/touch_sensor.ino) sketch using Arduino IDE
 2. Open Serial Monitor (115200 baud)
