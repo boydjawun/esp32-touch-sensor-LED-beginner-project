@@ -11,15 +11,16 @@ Simple ESP32 project that uses a **🟢built-in touch pin (GPIO 2)** to detect t
 ## 🧰Hardware Requirements
 - ESP-WROOM-32 development board
 - Red LED light
-- 3 Female-Male Jumper Wires
+- 1 Female-Male Jumper Wire
+- 2 Female-Female Jumper wires (To connect from the ESP-WROOM-32 to the LED)
 - USB-A to USB-C Cable 1m(Data Transferring Cable)
 
   ---
 ## ➿Wiring
 - **Touch electrode**: bare wire connected directly to **GPIO 2** (P2)
 - **LED circuit**:
-  - LED anode ➡️ **GPIO 5**
-  - LED cathode ➡️ **GND**
+  - LED anode ➡️ **GPIO 5** 🔴
+  - LED cathode ➡️ **GND** 🟤
 
 # ⭐ESP32 Touch Sensor Demo
 >Note: Tune `TOUCH_THRESHOLD` to match your setup. I used 350 for this project
@@ -29,7 +30,8 @@ Simple ESP32 project that uses a **🟢built-in touch pin (GPIO 2)** to detect t
 - Connect a jumper wire(female-male) directly to GPIO 2. This wire acts as the **touch-sensitive electrode**, no extra components needed. Touching the end of the wire with your finger decreases the touchRead value.
   
 **LED (with current-limiting resistor)**
-- Connect the LED anode (longer leg) ➡️ GPIO 5. Connect the LED cathode (shorter leg) ➡️ GND (any GND pin on the ESP32). This is a sourcing configuration **(ESP32 HIGH = LED on)**.
+- Connect the LED anode (longer leg) ➡️ 🔴GPIO 5. Connect the LED cathode (shorter leg) ➡️ 🟤GND (any GND pin on the ESP32). This is a sourcing configuration **(ESP32 HIGH = LED on)**
+  
 ## 🥇Finished Setup
 <img src = https://github.com/boydjawun/arduino-esp32-touch-sensor-LED-monitor/blob/main/assets/Photo_of_setup.png height = 600 width = 700/>
 
